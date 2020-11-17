@@ -1,8 +1,8 @@
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
     return(
-        <footer className='footer-section w-100 py-5'>
+        <footer className='footer-section py-5'>
             <Container className='mt-5 mb-5 py-5'>
                 <Row>
                     <Col lg={6} md={6} sm={12} xs={12}>

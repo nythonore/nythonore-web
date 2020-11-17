@@ -13,5 +13,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# yarn
+yarn.lock
+package-lock.json
+
 # File format
 .DS_Store
+
+# custom
+todo.txt
