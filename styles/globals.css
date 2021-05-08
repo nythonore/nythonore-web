@@ -26,6 +26,22 @@ a {
     font-weight: 400;
 }
 
+.text-bold {
+    font-weight: 700;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
 .social a {
     display: inline-block;
     padding-right: 40px;
@@ -56,6 +72,20 @@ a {
 }
 
 @media(max-width: 380px) {
+    .intro-section .content {
+        padding-top: 0 !important;
+    }
+
+    .intro-section .content .intro-text h2 {
+        font-size: 40px !important;
+        line-height: 4rem !important;
+        margin-top: 40px !important;
+    }
+
+    .intro-section .content img {
+        margin-top: 50px !important;
+    }
+
     .intro-section .top-bar .tag {
         position: relative;
         right: 20px;
@@ -63,11 +93,11 @@ a {
 }
 
 .intro-section .content .intro-text h2 {
-    font-size: 62px;
-    line-height: 5rem;
+    font-size: 42px;
+    line-height: 4rem;
     font-weight: 700;
     color: #111111;
-    margin-top: 100px;
+    margin-top: 130px;
 }
 
 .intro-section .content img {
@@ -149,3 +179,65 @@ a {
 }
 
 /** end footer section **/
+
+
+/** work section **/
+
+.work-section .work-box {
+    padding: 70px 0 0 50px;
+}
+
+.work-section .work-box.bg-box-1 {
+    background: #e6f2fd;
+}
+
+.work-section .work-box.bg-box-2 {
+    background: #d9f6f1;
+}
+
+.work-section .work-box .work-img-box {
+    margin-top: 60px;
+    width: 100%;
+    height: 450px;
+}
+
+.work-section .work-box .work-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-top-left-radius: 22px;
+}
+
+.work-section .work-box p {
+    font-family: 'Lato', sans-serif;
+    color: #2b2b2b;
+    font-weight: 400; 
+}
+
+.work-section .work-box a {
+    font-family: 'Lato', sans-serif;
+    color: #2b2b2b;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+/** end work section **/
+
+/** work section **/
+.about-section .about-me-content {
+    font-size: 18px;
+}
+
+@media(max-width: 380px) {
+    .about-section .about-me-content {
+        padding-right: 0 !important;
+    }
+}
+
+.about-section .skill-content ul li {
+    padding: 10px 5px;
+}
+
+/** end work section **/

@@ -5,17 +5,17 @@ import Work from '../components/Work';
 import Footer from '../components/Footer';
 
 export default function Home() {
-  return (
-    <div>
-      <Head />
+	return (
+		<div>
+			<Head />
 
-      <main>
-        <Intro />
-        <About />
-        <Work />
-      </main>
+			<main>
+				<Intro />
+				<About />
+				<Work />
+			</main>
 
-     <Footer />
-    </div>
-  )
+			<Footer />
+		</div>
+	);
 }
