@@ -1,11 +1,22 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
+import { AppLayout } from '../components/layouts';
+import {
+	NavBarContainer,
+	HeroContainer,
+	AboutContainer,
+	WorkContainer,
+	FooterContainer,
+} from '../components/containers';
 
 const Home: NextPage = () => {
 	return (
-		<div>
-			<h2>Home Page</h2>
-		</div>
+		<AppLayout>
+			<NavBarContainer />
+			<HeroContainer />
+			<AboutContainer />
+			<WorkContainer />
+			<FooterContainer />
+		</AppLayout>
 	);
 };
 
