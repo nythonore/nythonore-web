@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const HeroContainer = () => {
 	return (
-		<section id='hero' className='py-14'>
+		<section id='hero' className='body-h flex items-center py-24'>
 			<div className='container'>
 				<div>
 					<p className='text-secondary font-mono'>Hi, my name is</p>

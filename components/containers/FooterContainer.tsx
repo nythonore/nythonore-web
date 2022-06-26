@@ -9,7 +9,7 @@ export const FooterContainer = () => {
 	];
 
 	return (
-		<footer id='contact' className='py-14'>
+		<footer id='contact' className='body-h flex items-center py-24'>
 			<div className='container'>
 				<Header count='03' title='Get In Touch' />
 

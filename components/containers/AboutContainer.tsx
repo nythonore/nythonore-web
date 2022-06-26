@@ -22,7 +22,7 @@ export const AboutContainer = () => {
 	];
 
 	return (
-		<section id='about' className='py-14'>
+		<section id='about' className='body-h flex items-center py-24'>
 			<div className='container'>
 				<Header count='01' title='About Me' />
 
