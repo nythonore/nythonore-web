@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const HeroContainer = () => {
 	return (
-		<section id='hero' className='body-h flex items-center py-24'>
+		<section id='hero' className='py-24'>
 			<div className='container'>
 				<div>
 					<p className='text-secondary font-mono'>Hi, my name is</p>
@@ -15,7 +15,7 @@ export const HeroContainer = () => {
 						I build things for the web.
 					</p>
 
-					<div className='w-full md:w-[50%] mt-8'>
+					<div className='w-full lg:w-[50%] mt-8'>
 						<p className='text-gray leading-7'>
 							I’m a fullstack developer located in Rwanda. I help companies
 							design, develop and launch world class digital products.

@@ -24,7 +24,7 @@ export const Work = (props: WorkProps) => {
 				isReverse ? 'md:flex-row-reverse' : ''
 			)}
 		>
-			<div className='basis-[30%]'>
+			<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
 				<ImageCard
 					alt={title}
 					src={cover}

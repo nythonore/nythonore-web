@@ -44,7 +44,7 @@ export const WorkContainer = () => {
 	];
 
 	return (
-		<section id='work' className='body-h flex items-center py-24'>
+		<section id='work' className='py-24'>
 			<div className='container'>
 				<Header count='02' title='Some Things I’ve Built' />
 

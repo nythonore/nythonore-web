@@ -28,8 +28,4 @@ body {
 	.btn-primary-outline {
 		@apply btn hover:bg-secondary-light;
 	}
-
-	.body-h {
-		min-height: calc(100vh - 80px);
-	}
 }

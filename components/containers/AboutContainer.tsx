@@ -22,12 +22,12 @@ export const AboutContainer = () => {
 	];
 
 	return (
-		<section id='about' className='body-h flex items-center py-24'>
+		<section id='about' className='py-24'>
 			<div className='container'>
 				<Header count='01' title='About Me' />
 
-				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-10'>
-					<div className='basis-[70%]'>
+				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-12'>
+					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%]'>
 						<p className='text-gray'>
 							Fullstack developer with over three years of experience building
 							high-quality websites, applications, and databases for reputable
@@ -47,7 +47,7 @@ export const AboutContainer = () => {
 							Here are a few technologies I’ve been working with recently:
 						</p>
 
-						<div className='mt-4 grid grid-cols-2 md:grid-cols-4 gap-4'>
+						<div className='mt-4 grid grid-cols-2 lg:md:grid-cols-4 gap-4'>
 							{skills.map((skill, key) => (
 								<div key={key}>
 									<p className='text-light'>{skill.category}</p>
@@ -68,7 +68,7 @@ export const AboutContainer = () => {
 						</div>
 					</div>
 
-					<div className='basis-[30%]'>
+					<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
 						<ImageCard
 							alt='Honore Niyitegeka'
 							src='https://nythonore.me/static/media/nythonore.0ce7a5a4fc7a531c2891.jpg'
