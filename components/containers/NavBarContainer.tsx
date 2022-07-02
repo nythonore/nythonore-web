@@ -8,7 +8,7 @@ export const NavBarContainer = () => {
 	];
 
 	return (
-		<nav className='sticky top-0 z-50 w-full bg-dark-light/60 backdrop-blur-lg shadow-md shadow-dark'>
+		<nav className='sticky top-0 z-10 w-full bg-dark-light/60 backdrop-blur-lg shadow-md shadow-dark'>
 			<div className='container flex h-20 items-center justify-between'>
 				<div className='text-white'>
 					<Link href='/'>

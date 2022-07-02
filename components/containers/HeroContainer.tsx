@@ -5,7 +5,7 @@ export const HeroContainer = () => {
 		<section id='hero' className='py-24'>
 			<div className='container'>
 				<div>
-					<p className='text-secondary font-mono'>Hi, my name is</p>
+					<p className='text-secondary'>Hi, my name is</p>
 
 					<p className='text-light text-4xl md:text-6xl font-bold mt-6'>
 						Honore Niyitegeka.
@@ -15,19 +15,28 @@ export const HeroContainer = () => {
 						I build things for the web.
 					</p>
 
-					<div className='w-full lg:w-[50%] mt-8'>
+					<div className='w-full lg:w-[55%] mt-8'>
 						<p className='text-gray leading-7'>
-							I’m a fullstack developer located in Rwanda. I help companies
+							I’m a frontend developer located in Rwanda. I help companies
 							design, develop and launch world class digital products.
 							Currently, I’m focused on building accessible, human-centered
 							products at{' '}
-							<a
+							{/* <a
 								href='https://ishema.rw'
 								className='text-secondary'
 								target='_blank'
 								rel='noreferrer'
 							>
 								@IshemaHub
+							</a>{' '}
+							|{' '} */}
+							<a
+								href='https://www.linkedin.com/company/solution-social-network/'
+								className='text-secondary hover:text-secondary/70 hover'
+								target='_blank'
+								rel='noreferrer'
+							>
+								@SolutionSocialNetWork
 							</a>
 						</p>
 					</div>

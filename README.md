@@ -1,34 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Honore Niyitegeka Portfolio
 
-## Getting Started
+This repository contains code for Honore Niyitegeka Portfolio in NextJS and Bootstrap.\
+view demo: https://nythonore.me
 
-First, run the development server:
+![alt text](https://res.cloudinary.com/elab/image/upload/v1650554146/nythonore/works/jfrc5jcogzwyvzisltrn.png)
 
-```bash
-npm run dev
-# or
-yarn dev
+### Prerequisites
+
+Make sure you have already installed NPM & YARN | NPM. You don’t need to install Nginx or YARN, as both are provided by Docker images.
+
+```
+$ docker -v
+Docker version 20.10.7, build f0df350
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installing
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```
+$ git clone https://github.com/nythonore/nythonore-web.git
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+$ cd nythonore-web
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+$ yarn install
+```
 
-## Learn More
+```
+$ yarn start
+```
 
-To learn more about Next.js, take a look at the following resources:
+Go to [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Built With
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [NextJS](https://nextjs.org/) - React Framework
+- [TailwindCSS](https://tailwindcss.com/) - CSS Framework
 
-## Deploy on Vercel
+### Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Honore Niyitegeka** (https://nythonore.me)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
