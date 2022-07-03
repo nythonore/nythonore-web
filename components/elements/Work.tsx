@@ -38,9 +38,9 @@ export const Work = (props: WorkProps) => {
 					isReverse ? 'md:text-right' : 'text-left'
 				)}
 			>
-				<h2 className='text-2xl md:text-4xl font-bold text-light'>{title}</h2>
+				<h2 className='text-2xl md:text-3xl font-bold text-light'>{title}</h2>
 
-				<p className='mt-4 text-base md:text-lg font-normal text-gray'>
+				<p className='mt-4 text-base md:text-lg font-light text-gray'>
 					{description}
 				</p>
 
@@ -53,7 +53,7 @@ export const Work = (props: WorkProps) => {
 					{tags.map((tag, key) => (
 						<span
 							key={key}
-							className='uppercase bg-dark-light border border-secondary text-light py-2 px-2 md:px-3 rounded-full text-sm'
+							className='font-light uppercase bg-dark-light border border-secondary text-light py-2 px-2 md:px-3 rounded-full text-sm'
 						>
 							{tag}
 						</span>
@@ -70,7 +70,7 @@ export const Work = (props: WorkProps) => {
 						href={liveUrl}
 						target='_blank'
 						rel='noreferrer'
-						className='flex gap-1 items-center btn-primary text-base font-semibold text-black hover:text-secondary'
+						className='flex gap-1 items-center btn-primary text-base font-normal text-black hover:text-secondary'
 					>
 						<ExternalLinkIcon className='h-5 w-5' />
 						<span>Live</span>
@@ -80,7 +80,7 @@ export const Work = (props: WorkProps) => {
 						href={githubUrl}
 						target='_blank'
 						rel='noreferrer'
-						className='flex gap-1 items-center btn-primary text-base font-semibold text-black hover:text-secondary'
+						className='flex gap-1 items-center btn-primary text-base font-normal text-black hover:text-secondary'
 					>
 						<CodeIcon className='h-5 w-5' />
 						<span>GitHub</span>

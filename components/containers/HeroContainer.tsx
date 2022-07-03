@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export const HeroContainer = () => {
 	return (
-		<section id='hero' className='py-24'>
+		<section id='hero' className='py-12 md:py-24'>
 			<div className='container'>
 				<div>
 					<p className='text-secondary'>Hi, my name is</p>
@@ -16,20 +16,11 @@ export const HeroContainer = () => {
 					</p>
 
 					<div className='w-full lg:w-[55%] mt-8'>
-						<p className='text-gray leading-7'>
+						<p className='text-gray leading-7 font-light'>
 							I’m a frontend developer located in Rwanda. I help companies
 							design, develop and launch world class digital products.
 							Currently, I’m focused on building accessible, human-centered
 							products at{' '}
-							{/* <a
-								href='https://ishema.rw'
-								className='text-secondary'
-								target='_blank'
-								rel='noreferrer'
-							>
-								@IshemaHub
-							</a>{' '}
-							|{' '} */}
 							<a
 								href='https://www.linkedin.com/company/solution-social-network/'
 								className='text-secondary hover:text-secondary/70 hover'

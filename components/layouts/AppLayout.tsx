@@ -1,5 +1,6 @@
-// import Head from 'next/head';
 import { ReactNode } from 'react';
+import { Meta } from '../elements';
+import { FooterContainer, NavBarContainer } from '../containers';
 
 type AppLayoutProps = {
 	children: ReactNode;
@@ -10,8 +11,13 @@ export const AppLayout = (props: AppLayoutProps) => {
 
 	return (
 		<>
-			{/* <Head></Head> */}
-			<main className='bg-dark'>{children}</main>
+			<Meta />
+
+			<div className='bg-dark'>
+				{/* <NavBarContainer /> */}
+				<main>{children}</main>
+				<FooterContainer />
+			</div>
 		</>
 	);
 };

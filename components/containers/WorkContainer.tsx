@@ -4,39 +4,33 @@ export const WorkContainer = () => {
 	const works = [
 		{
 			title: 'WhatsApp - Clone UI',
-			cover:
-				'https://nythonore.me/static/media/whatsapp.b3cbc0ff0cbb83095175.png',
-			description:
-				'A CRUD application to store and edit notes using React and Tailwind CSS.',
+			cover: '/works/whatsapp.png',
+			description: 'Cloned WhatsApp chat page UI in React Js and Bootstrap.',
 			tags: ['react', 'bootstrap'],
 			liveUrl: 'https://whatsapp.nythonore.me/',
 			githubUrl: 'https://github.com/nythonore/whatsapp-clone',
 		},
 		{
 			title: 'Dark Theme Blog',
-			cover: 'https://nythonore.me/static/media/blog.02889399320dfe95234e.png',
-			description:
-				'Buzzphonics is a sounds app for parents and kids to learn Phase 2 and Phase 3 phonics in the UK.',
+			cover: '/works/blog.png',
+			description: 'A web app for random blogs in TypeScript & Redux and Bootstrap.',
 			tags: ['typescript', 'react', 'bootstrap', 'redux'],
 			liveUrl: 'https://blog-ui.nythonore.me/',
 			githubUrl: 'https://github.com/nythonore/blog-web',
 		},
 		{
 			title: 'Obama Donate - Clone UI',
-			cover:
-				'https://nythonore.me/static/media/obamadonate.fcde1928ceede86700a7.png',
+			cover: '/works/obamadonate.png',
 			description:
-				'A website for my yoga business created with Next.js. It has a markdown blog using gray-matter and marked.',
+				'Cloned Obama Donate landing & payment page UI in React JS and Bootstrap.',
 			tags: ['react', 'bootstrap'],
 			liveUrl: 'https://obamadonate.nythonore.me/',
 			githubUrl: 'https://github.com/nythonore/obamadonate-clone',
 		},
 		{
 			title: 'Cookie UI',
-			cover:
-				'https://nythonore.me/static/media/cookie.f8890fbcf532f9870a93.png',
-			description:
-				'A CRUD application to store and edit notes using React and Tailwind CSS.',
+			cover: '/works/cookie.png',
+			description: 'Cookie single-page UI in React JS and Bootstrap.',
 			tags: ['react', 'bootstrap'],
 			liveUrl: 'https://cookie-ui.nythonore.me/',
 			githubUrl: 'https://github.com/nythonore/cookie-ui',
@@ -44,7 +38,7 @@ export const WorkContainer = () => {
 	];
 
 	return (
-		<section id='work' className='py-24'>
+		<section id='work' className='py-12 md:py-24'>
 			<div className='container'>
 				<Header count='02' title='Some Things I’ve Built' />
 

@@ -22,28 +22,13 @@ export const AboutContainer = () => {
 	];
 
 	return (
-		<section id='about' className='py-24'>
+		<section id='about' className='py-12 md:py-24'>
 			<div className='container'>
 				<Header count='01' title='About Me' />
 
 				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-12'>
-					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%]'>
+					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%] font-light'>
 						<p className='text-gray'>
-							Fullstack developer with over three years of experience building
-							high-quality websites, applications, and databases for reputable
-							brands. I am well versed in all the key languages and am able to
-							design, code and deploy in an organized and efficient manner.
-						</p>
-
-						<p className='text-gray mt-4'>
-							Having worked on different projects helped me to adapt to the
-							changes quickly and made me a mature team worker. I am able to
-							work well both in a team environment as well as using my own
-							initiative. I am able to work well under pressure and adhere to
-							strict deadlines.
-						</p>
-
-						<p className='text-gray mt-4'>
 							Here are a few technologies I’ve been working with recently:
 						</p>
 
@@ -71,7 +56,7 @@ export const AboutContainer = () => {
 					<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
 						<ImageCard
 							alt='Honore Niyitegeka'
-							src='https://nythonore.me/static/media/nythonore.0ce7a5a4fc7a531c2891.jpg'
+							src='/nythonore.jpg'
 							cardStyles='bg-[#D9F6F1]'
 						/>
 					</div>

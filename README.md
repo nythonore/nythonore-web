@@ -5,15 +5,6 @@ view demo: https://nythonore.me
 
 ![alt text](https://res.cloudinary.com/elab/image/upload/v1650554146/nythonore/works/jfrc5jcogzwyvzisltrn.png)
 
-### Prerequisites
-
-Make sure you have already installed NPM & YARN | NPM. You don’t need to install Nginx or YARN, as both are provided by Docker images.
-
-```
-$ docker -v
-Docker version 20.10.7, build f0df350
-```
-
 ### Installing
 
 ```

@@ -4,11 +4,12 @@ export const NavBarContainer = () => {
 	const menus = [
 		{ label: 'About', path: '/#about' },
 		{ label: 'Work', path: '/#work' },
+		{ label: 'Blog', path: 'https://nythonore.hashnode.dev' },
 		{ label: 'Contact', path: '/#contact' },
 	];
 
 	return (
-		<nav className='sticky top-0 z-10 w-full bg-dark-light/60 backdrop-blur-lg shadow-md shadow-dark'>
+		<nav className='sticky top-0 z-10 w-full bg-dark-light/40 backdrop-blur-lg'>
 			<div className='container flex h-20 items-center justify-between'>
 				<div className='text-white'>
 					<Link href='/'>
@@ -30,9 +31,14 @@ export const NavBarContainer = () => {
 						))}
 					</div>
 
-					<button className='btn-primary-outline text-sm font-light px-4 py-2'>
+					<a
+						href='/resume.pdf'
+						target='_blank'
+						rel='noreferrer'
+						className='btn-primary-outline text-sm font-light px-4 py-2'
+					>
 						Resume
-					</button>
+					</a>
 				</div>
 			</div>
 		</nav>
