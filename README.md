@@ -1,9 +1,9 @@
 # Honore Niyitegeka Portfolio
 
-This repository contains code for Honore Niyitegeka Portfolio in NextJS and Bootstrap.\
+This repository contains code for Honore Niyitegeka Portfolio in NextJS and TailwindCSS.\
 view demo: https://nythonore.me
 
-![alt text](https://res.cloudinary.com/elab/image/upload/v1650554146/nythonore/works/jfrc5jcogzwyvzisltrn.png)
+![alt text](https://nythonore.me/nythonore.png)
 
 ### Installing
 
