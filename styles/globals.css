@@ -18,7 +18,7 @@ body {
 	}
 
 	.btn {
-		@apply appearance-none border border-secondary px-8 py-3 text-sm font-light rounded-md text-secondary hover;
+		@apply appearance-none border border-secondary px-8 py-3 text-sm text-center font-light rounded-md text-secondary hover;
 	}
 
 	.btn-primary {

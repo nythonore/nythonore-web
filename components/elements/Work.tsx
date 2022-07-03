@@ -70,7 +70,7 @@ export const Work = (props: WorkProps) => {
 						href={liveUrl}
 						target='_blank'
 						rel='noreferrer'
-						className='flex gap-1 items-center btn-primary text-base font-normal text-black hover:text-secondary'
+						className='flex gap-1 items-center btn-primary text-base font-normal text-dark hover:text-secondary'
 					>
 						<ExternalLinkIcon className='h-5 w-5' />
 						<span>Live</span>
@@ -80,7 +80,7 @@ export const Work = (props: WorkProps) => {
 						href={githubUrl}
 						target='_blank'
 						rel='noreferrer'
-						className='flex gap-1 items-center btn-primary text-base font-normal text-black hover:text-secondary'
+						className='flex gap-1 items-center btn-primary text-base font-normal text-dark hover:text-secondary'
 					>
 						<CodeIcon className='h-5 w-5' />
 						<span>GitHub</span>

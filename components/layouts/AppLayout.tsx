@@ -14,7 +14,7 @@ export const AppLayout = (props: AppLayoutProps) => {
 			<Meta />
 
 			<div className='bg-dark'>
-				{/* <NavBarContainer /> */}
+				<NavBarContainer />
 				<main>{children}</main>
 				<FooterContainer />
 			</div>

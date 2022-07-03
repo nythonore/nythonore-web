@@ -18,11 +18,19 @@ export const HeroContainer = () => {
 					<div className='w-full lg:w-[55%] mt-8'>
 						<p className='text-gray leading-7 font-light'>
 							I’m a frontend developer located in Rwanda. I help companies
-							design, develop and launch world class digital products.
-							Currently, I’m focused on building accessible, human-centered
-							products at{' '}
+							design, build and launch world-class digital products. Currently,
+							I’m focused on building accessible, human-centered products at{' '}
 							<a
-								href='https://www.linkedin.com/company/solution-social-network/'
+								href='https://ishema.rw'
+								className='text-secondary hover:text-secondary/70 hover'
+								target='_blank'
+								rel='noreferrer'
+							>
+								@IshemaHub
+							</a>
+							{' & '}
+							<a
+								href='https://www.linkedin.com/company/solution-social-network'
 								className='text-secondary hover:text-secondary/70 hover'
 								target='_blank'
 								rel='noreferrer'

@@ -29,6 +29,19 @@ export const AboutContainer = () => {
 				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-12'>
 					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%] font-light'>
 						<p className='text-gray'>
+							Hello, my name is Honore. I am a frontend developer located in
+							Rwanda.
+						</p>
+
+						<p className='text-gray mt-4'>
+							I design and build world-class digital products using HTML, CSS,
+							JavaScript, etc... When dealing with a project I pay attention to
+							the smallest details addressing problems with patience. Web design
+							and development help me to free my creative mind and allow me to
+							satisfy my desire for constant self-growth.
+						</p>
+
+						<p className='text-gray mt-4'>
 							Here are a few technologies I’ve been working with recently:
 						</p>
 
