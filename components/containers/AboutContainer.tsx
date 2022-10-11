@@ -29,7 +29,7 @@ export const AboutContainer = () => {
 				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-12'>
 					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%] font-light'>
 						<p className='text-gray'>
-							Hello, my name is Honore. I am a frontend developer located in
+							Hello, my name is Honore. I am a fullstack developer located in
 							Rwanda.
 						</p>
 

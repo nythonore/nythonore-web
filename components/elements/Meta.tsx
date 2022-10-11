@@ -11,19 +11,19 @@ export const Meta = () => {
 			<meta name='language' content='English' />
 			<meta name='author' content='Honore Niyitegeka' />
 
-			<meta name='title' content='Honore Niyitegeka - Frontend Developer' />
+			<meta name='title' content='Honore Niyitegeka - Fullstack Developer' />
 			<meta
 				name='description'
 				content='Enthusiastic and self-motivated front-end developer with 3+ years in the industry. Proficient with Javascript & Python.'
 			/>
 			<meta
 				name='keywords'
-				content='nythonore, honore niyitegeka, frontend developer, backend developer, fullstack developer, freelancer, contractor, rwanda'
+				content='nythonore, honore niyitegeka, fullstack developer, backend developer, fullstack developer, freelancer, contractor, rwanda'
 			/>
 
 			<meta
 				property='og:title'
-				content='Honore Niyitegeka - Frontend Developer'
+				content='Honore Niyitegeka - Fullstack Developer'
 			/>
 			<meta property='og:type' content='website' />
 			<meta
@@ -34,7 +34,7 @@ export const Meta = () => {
 
 			<meta name='twitter:card' content='summary_large_image' />
 
-			<title>Honore Niyitegeka - Frontend Developer</title>
+			<title>Honore Niyitegeka - Fullstack Developer</title>
 		</Head>
 	);
 };

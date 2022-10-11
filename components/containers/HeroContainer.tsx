@@ -17,7 +17,7 @@ export const HeroContainer = () => {
 
 					<div className='w-full lg:w-[55%] mt-8'>
 						<p className='text-gray leading-7 font-light'>
-							I’m a frontend developer located in Rwanda. I help companies
+							I’m a fullstack developer located in Rwanda. I help companies
 							design, build and launch world-class digital products. Currently,
 							I’m focused on building accessible, human-centered products at{' '}
 							<a
