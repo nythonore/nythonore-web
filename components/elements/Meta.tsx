@@ -14,11 +14,11 @@ export const Meta = () => {
 			<meta name='title' content='Honore Niyitegeka - Fullstack Developer' />
 			<meta
 				name='description'
-				content='Enthusiastic and self-motivated front-end developer with 3+ years in the industry. Proficient with Javascript & Python.'
+				content='Full Stack Developer | TypeScript | ReactJS | Python'
 			/>
 			<meta
 				name='keywords'
-				content='nythonore, honore niyitegeka, fullstack developer, backend developer, fullstack developer, freelancer, contractor, rwanda'
+				content='nythonore, honore niyitegeka, fullstack developer, frontend developer, backend developer, freelancer, contractor, rwanda'
 			/>
 
 			<meta
@@ -28,7 +28,7 @@ export const Meta = () => {
 			<meta property='og:type' content='website' />
 			<meta
 				name='og:description'
-				content='Enthusiastic and self-motivated front-end developer with 3+ years in the industry. Proficient with Javascript & Python.'
+				content='Full Stack Developer | TypeScript | ReactJS | Python'
 			/>
 			<meta property='og:url' content='https://nythonore.me/' />
 

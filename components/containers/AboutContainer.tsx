@@ -34,11 +34,11 @@ export const AboutContainer = () => {
 						</p>
 
 						<p className='text-gray mt-4'>
-							I design and build world-class digital products using JavaScript
-							and Python. When dealing with a project I pay attention to the
-							smallest details addressing problems with patience. Web design and
-							development help me to free my creative mind and allow me to
-							satisfy my desire for constant self-growth.
+							Well-qualified full stack developer familiar with a wide range of
+							programming utilities and languages. Knowledgeable of frontend and
+							backend development requirements. Handles any part of the process
+							with ease. Collaborative team player with excellent technical
+							abilities offering more than 3 years of related experience.
 						</p>
 
 						<p className='text-gray mt-4'>
