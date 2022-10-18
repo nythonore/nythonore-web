@@ -13,7 +13,8 @@ export const WorkContainer = () => {
 		{
 			title: 'Dark Theme Blog',
 			cover: '/works/blog.png',
-			description: 'A web app for random blogs in TypeScript & Redux and Bootstrap.',
+			description:
+				'A web app for random blogs in TypeScript & Redux and Bootstrap.',
 			tags: ['typescript', 'react', 'bootstrap', 'redux'],
 			liveUrl: 'https://blog-ui.nythonore.me/',
 			githubUrl: 'https://github.com/nythonore/blog-web',
