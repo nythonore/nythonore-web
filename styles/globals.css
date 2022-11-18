@@ -14,18 +14,18 @@ body {
 
 @layer components {
 	.hover {
-		@apply cursor-pointer transition-all ease-in duration-300;
+		@apply cursor-pointer transition-all duration-300 ease-in;
 	}
 
 	.btn {
-		@apply appearance-none border border-secondary px-8 py-3 text-sm text-center font-light rounded-md text-secondary hover;
+		@apply hover flex appearance-none items-center justify-center gap-1 rounded-md border px-4 py-2 text-center text-sm font-light;
 	}
 
-	.btn-primary {
-		@apply btn bg-secondary hover:bg-secondary-light;
+	.btn-secondary {
+		@apply btn border-secondary bg-secondary text-dark hover:bg-secondary-light hover:text-secondary;
 	}
 
-	.btn-primary-outline {
-		@apply btn hover:bg-secondary-light;
+	.btn-secondary-outline {
+		@apply btn border-secondary text-secondary hover:bg-secondary-light;
 	}
 }

@@ -8,7 +8,7 @@ export const Header = (props: HeaderProps) => {
 
 	return (
 		<div className='flex gap-4 md:gap-8 items-center'>
-			<h2 className='text-light text-2xl font-semibold'>
+			<h2 className='text-light text-3xl font-semibold'>
 				<span className='font-mono text-secondary font-medium'>{count}.</span>{' '}
 				<span>{title}</span>
 			</h2>

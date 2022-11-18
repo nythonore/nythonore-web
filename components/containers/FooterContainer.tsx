@@ -5,30 +5,48 @@ export const FooterContainer = () => {
 		{ label: 'LinkedIn', path: 'https://www.linkedin.com/in/nythonore' },
 		{ label: 'Twitter', path: 'https://twitter.com/nythonore' },
 		{ label: 'Instagram', path: 'https://www.instagram.com/nythonore' },
-		{ label: 'Github', path: 'https://github.com/nythonore' }
+		{ label: 'Github', path: 'https://github.com/nythonore' },
 	];
 
 	return (
-		<footer id='contact' className='py-12 md:py-24'>
+		<footer id='contact' className='py-12 md:py-16'>
 			<div className='container'>
-				<Header count='03' title='Get In Touch' />
+				<Header count='03' title='Sold Yet 🤙' />
 
-				<div className='w-full lg:w-[50%] mt-12'>
-					<p className='text-light text-xl md:text-xl font-light'>
-						You can find me on Twitter for a chat or LinkedIn for something a
-						bit more professional. Come say hello, I’d love to hear from you.
+				<div className='mt-10 w-full lg:w-[50%]'>
+					<p className='text-xl font-light text-light md:text-xl'>
+						You can find me on{' '}
+						<a
+							href='https://twitter.com/nythonore'
+							className='text-secondary'
+							target='_blank'
+							rel='noreferrer'
+						>
+							@Twitter
+						</a>{' '}
+						for a chat or{' '}
+						<a
+							href='https://www.linkedin.com/in/nythonore'
+							className='text-secondary'
+							target='_blank'
+							rel='noreferrer'
+						>
+							@LinkedIn
+						</a>{' '}
+						for something a bit more professional. Come say hello, I’d love to
+						hear from you.
 					</p>
 				</div>
 
-				<div className='mt-12 flex gap-4 flex-wrap justify-between'>
-					<div className='flex gap-4 flex-wrap'>
+				<div className='mt-12 flex flex-wrap justify-between gap-4'>
+					<div className='flex flex-wrap gap-4'>
 						{socials.map((social, key) => (
 							<a
 								key={key}
 								href={social.path}
 								target='_blank'
 								rel='noreferrer'
-								className='text-gray text-base underline font-light'
+								className='text-base font-light text-gray underline'
 							>
 								{social.label}
 							</a>
@@ -37,12 +55,12 @@ export const FooterContainer = () => {
 
 					<a
 						href='https://github.com/nythonore/nythonore-web'
-						className='text-light group'
+						className='group text-light'
 						target='_blank'
 						rel='noreferrer'
 					>
 						Designed & Built by{' '}
-						<span className='group-hover:text-secondary hover'>
+						<span className='hover group-hover:text-secondary'>
 							Honore Niyitegeka
 						</span>
 					</a>

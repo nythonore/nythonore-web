@@ -5,11 +5,11 @@ export const AboutContainer = () => {
 	const skills = [
 		{
 			category: 'Frontend',
-			tools: ['Javascript (ES6+)', 'TypeScript', 'React JS', 'React Native'],
+			tools: ['Tailwind CSS', 'TypeScript', 'React JS', 'React Native'],
 		},
 		{
 			category: 'Backend',
-			tools: ['Python', 'Django', 'NodeJS', 'NestJS'],
+			tools: ['Python', 'NodeJS', 'PHP', 'GraphQL'],
 		},
 		{
 			category: 'Database',
@@ -17,35 +17,35 @@ export const AboutContainer = () => {
 		},
 		{
 			category: 'Devops',
-			tools: ['Docker', 'Kubernetes', 'CircleCi', 'Linux'],
+			tools: ['Docker', 'Kubernetes', 'CircleCI', 'AWS'],
 		},
 	];
 
 	return (
-		<section id='about' className='py-12 md:py-24'>
+		<section id='about' className='py-12 md:py-16'>
 			<div className='container'>
 				<Header count='01' title='About Me' />
 
-				<div className='flex flex-col-reverse md:flex-row justify-center gap-12 mt-12'>
-					<div className='basis-[70%] md:basis-[60%] lg:basis-[70%] font-light'>
+				<div className='mt-12 flex flex-col-reverse justify-center gap-12 md:flex-row'>
+					<div className='basis-[70%] font-light md:basis-[60%] lg:basis-[70%]'>
 						<p className='text-gray'>
-							Hello, my name is Honore. I am a fullstack developer located in
+							Hello, my name is Honore. I am a front-end developer located in
 							Rwanda.
 						</p>
 
-						<p className='text-gray mt-4'>
-							Well-qualified full stack developer familiar with a wide range of
-							programming utilities and languages. Knowledgeable of frontend and
-							backend development requirements. Handles any part of the process
-							with ease. Collaborative team player with excellent technical
-							abilities offering more than 3 years of related experience.
+						<p className='mt-4 text-gray'>
+							Experienced front-end developer with a passion for crafting
+							intuitive and user-friendly web applications. With over 3+ years
+							of experience, proficient in a variety of programming languages
+							and development frameworks. Eager to use skills to help an
+							innovative company build a better web.
 						</p>
 
-						<p className='text-gray mt-4'>
+						<p className='mt-4 text-gray'>
 							Here are a few technologies I’ve been working with recently:
 						</p>
 
-						<div className='mt-4 grid grid-cols-2 lg:md:grid-cols-4 gap-4'>
+						<div className='mt-4 grid grid-cols-2 gap-4 lg:md:grid-cols-4'>
 							{skills.map((skill, key) => (
 								<div key={key}>
 									<p className='text-light'>{skill.category}</p>
@@ -54,7 +54,7 @@ export const AboutContainer = () => {
 										{skill.tools.map((tool, toolKey) => (
 											<li
 												key={toolKey}
-												className='text-gray flex gap-1 items-center mb-1'
+												className='mb-1 flex items-center gap-1 text-gray'
 											>
 												<ChevronRightIcon className='h-3.5 w-3.5 text-secondary' />
 												<span>{tool}</span>

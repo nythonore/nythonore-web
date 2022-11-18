@@ -2,51 +2,38 @@ import Link from 'next/link';
 
 export const HeroContainer = () => {
 	return (
-		<section id='hero' className='py-12 md:py-24'>
+		<section id='hero' className='py-12 md:py-16'>
 			<div className='container'>
 				<div>
 					<p className='text-secondary'>Hi, my name is</p>
 
-					<p className='text-light text-4xl md:text-6xl font-bold mt-6'>
+					<p className='mt-6 text-4xl font-bold text-light md:text-6xl'>
 						Honore Niyitegeka.
 					</p>
 
-					<p className='text-gray text-4xl md:text-6xl font-bold mt-4'>
+					<p className='mt-4 text-4xl font-bold text-gray md:text-6xl'>
 						I build things for the web.
 					</p>
 
-					<div className='w-full lg:w-[55%] mt-8'>
-						<p className='text-gray leading-7 font-light'>
-							I’m a fullstack developer located in Rwanda. I help companies
-							design, build and launch world-class digital products. Currently,
-							I’m focused on building accessible, human-centered products at{' '}
-							<a
-								href='https://ishema.rw'
-								className='text-secondary hover:text-secondary/70 hover'
-								target='_blank'
-								rel='noreferrer'
-							>
-								@IshemaHub
-							</a>
-							{' & '}
-							<a
-								href='https://www.linkedin.com/company/solution-social-network'
-								className='text-secondary hover:text-secondary/70 hover'
-								target='_blank'
-								rel='noreferrer'
-							>
-								@SolutionSocialNetWork
-							</a>
+					<div className='mt-8 w-full lg:w-[55%]'>
+						<p className='font-light leading-7 text-gray'>
+							A Frontend focused web Developer building the frontend of websites
+							and web applications that leads to the success of the overall
+							product
 						</p>
 					</div>
 
-					<div className='flex gap-4 mt-6'>
+					<div className='mt-6 flex gap-4'>
 						<Link href='/#work'>
-							<p className='btn-primary-outline py-4'>View My Work</p>
+							<p className='btn-secondary-outline grow py-4 px-8 md:grow-0'>
+								View My Work
+							</p>
 						</Link>
 
 						<Link href='/#contact'>
-							<p className='btn-primary-outline py-4'>Get In Touch</p>
+							<p className='btn-secondary-outline grow py-4 px-8 md:grow-0'>
+								Hire Me
+							</p>
 						</Link>
 					</div>
 				</div>

@@ -18,8 +18,8 @@ export const NavBarContainer = () => {
 						<div className='container flex h-20 items-center justify-between'>
 							<div className='text-white'>
 								<Link href='/'>
-									<div className='flex items-center justify-center w-11 h-11 border-2 border-secondary rounded-xl cursor-pointer'>
-										<h2 className='text-xl text-secondary font-bold'>H</h2>
+									<div className='flex h-11 w-11 cursor-pointer items-center justify-center rounded-xl border-2 border-secondary'>
+										<h2 className='text-xl font-bold text-secondary'>HN</h2>
 									</div>
 								</Link>
 							</div>
@@ -27,14 +27,14 @@ export const NavBarContainer = () => {
 							<div className='md:hidden'>
 								<Popover.Button>
 									{!open ? (
-										<MenuAlt1Icon className='w-[28px] h-[28px] text-secondary' />
+										<MenuAlt1Icon className='h-[28px] w-[28px] text-secondary' />
 									) : (
-										<XIcon className='w-[28px] h-[28px] text-secondary' />
+										<XIcon className='h-[28px] w-[28px] text-secondary' />
 									)}
 								</Popover.Button>
 							</div>
 
-							<div className='hidden md:flex items-center gap-8'>
+							<div className='hidden items-center gap-8 md:flex'>
 								<div className='flex gap-8'>
 									{menus.map((menu, key) => (
 										<a key={key} href={menu.path} className='text-sm'>
@@ -50,7 +50,7 @@ export const NavBarContainer = () => {
 									href='/resume.pdf'
 									target='_blank'
 									rel='noreferrer'
-									className='btn-primary-outline text-sm font-light px-4 py-2'
+									className='btn-secondary-outline'
 								>
 									Resume
 								</a>
@@ -83,7 +83,7 @@ export const NavBarContainer = () => {
 											href='/resume.pdf'
 											target='_blank'
 											rel='noreferrer'
-											className='mt-16 block w-full btn-primary text-base px-4 py-4 text-dark font-medium hover:text-secondary'
+											className='btn-secondary mt-16 block w-full px-4 py-4 text-base font-medium text-dark hover:text-secondary'
 										>
 											Resume
 										</a>
