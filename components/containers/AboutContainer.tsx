@@ -30,15 +30,17 @@ export const AboutContainer = () => {
 					<div className='basis-[70%] font-light md:basis-[60%] lg:basis-[70%]'>
 						<p className='text-gray'>
 							Hello, my name is Honore. I am a front-end developer located in
-							Rwanda.
+							Canada.
 						</p>
 
 						<p className='mt-4 text-gray'>
-							Experienced front-end developer with a passion for crafting
-							intuitive and user-friendly web applications. With over 3+ years
-							of experience, proficient in a variety of programming languages
-							and development frameworks. Eager to use skills to help an
-							innovative company build a better web.
+							A highly skilled and experienced frontend developer with a strong
+							background in building modern, responsive, and user-friendly web
+							applications. Proficient in a variety of programming languages and
+							frameworks, including HTML, CSS, JavaScript, React and Python.
+							Proven ability to lead and manage development teams, as well as
+							effectively communicate and collaborate with cross-functional
+							teams.
 						</p>
 
 						<p className='mt-4 text-gray'>
