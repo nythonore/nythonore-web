@@ -50,7 +50,7 @@ export const AboutContainer = () => {
 						<div className='mt-4 grid grid-cols-2 gap-4 lg:md:grid-cols-4'>
 							{skills.map((skill, key) => (
 								<div key={key}>
-									<p className='text-light'>{skill.category}</p>
+									<p className='text-gray'>{skill.category}</p>
 
 									<ul className='mt-4'>
 										{skill.tools.map((tool, toolKey) => (
@@ -69,11 +69,11 @@ export const AboutContainer = () => {
 					</div>
 
 					<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
-						<ImageCard
+						{/* <ImageCard
 							alt='Honore Niyitegeka'
 							src='/nythonore.jpg'
 							cardStyles='bg-[#D9F6F1]'
-						/>
+						/> */}
 					</div>
 				</div>
 			</div>

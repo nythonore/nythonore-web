@@ -7,11 +7,11 @@ export const HeroContainer = () => {
 				<div>
 					<p className='text-secondary'>Hi, my name is</p>
 
-					<p className='mt-6 text-4xl font-bold text-light md:text-6xl'>
+					<p className='mt-6 text-4xl font-bold text-white md:text-6xl'>
 						Honore Niyitegeka.
 					</p>
 
-					<p className='mt-4 text-4xl font-bold text-gray md:text-6xl'>
+					<p className='mt-4 bg-gradient-to-r from-secondary to-secondary-light bg-clip-text text-4xl font-bold text-transparent text-gray md:text-6xl'>
 						I build things for the web.
 					</p>
 

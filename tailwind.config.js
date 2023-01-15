@@ -15,11 +15,11 @@ module.exports = {
 
 		extend: {
 			colors: {
-				light: '#CCD6F6',
-				gray: '#8892AF',
-				dark: '#0A1930',
-				'dark-light': '#112240',
-				secondary: '#18EDCC',
+				white: '#FFFFFF',
+				gray: '#97ADC7',
+				dark: '#0C1B2E',
+				'dark-light': '#0F2137',
+				secondary: '#00EDE6',
 				'secondary-light': '#1E4854',
 			},
 		},

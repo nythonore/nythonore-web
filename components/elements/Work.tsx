@@ -27,15 +27,15 @@ export const Work = (props: WorkProps) => {
 				</svg>
 
 				<div className='my-4'>
-					<h2 className='text-xl font-bold text-light'>{title}</h2>
-					<p className='mt-1 text-base font-light text-gray'>{description}</p>
+					<h2 className='text-xl font-bold text-white'>{title}</h2>
+					<p className='my-4 text-base font-light text-gray'>{description}</p>
 				</div>
 
 				<div className='grid grid-cols-3 gap-2'>
 					{tags.map((tag, key) => (
 						<span
 							key={key}
-							className='w-full flex-1 rounded-full border border-secondary py-1.5 text-center text-[10px] font-light uppercase text-light'
+							className='w-full flex-1 rounded-full border border-secondary py-1.5 text-center text-[10px] font-light uppercase text-white'
 						>
 							{tag}
 						</span>
@@ -60,7 +60,7 @@ export const Work = (props: WorkProps) => {
 						'btn-secondary flex w-full items-center justify-center gap-1 px-2 py-3 font-medium',
 						githubUrl
 							? ''
-							: 'cursor-not-allowed border-secondary-light bg-secondary-light py-3 text-light hover:text-light'
+							: 'cursor-not-allowed border-secondary-light bg-secondary-light py-3 text-gray hover:text-gray'
 					)}
 					target='_blank'
 					rel='noreferrer'
@@ -70,75 +70,5 @@ export const Work = (props: WorkProps) => {
 				</a>
 			</div>
 		</div>
-		// <div
-		// 	className={clsx(
-		// 		'flex flex-col md:flex-row justify-center gap-12',
-		// 		isReverse ? 'md:flex-row-reverse' : ''
-		// 	)}
-		// >
-		// 	<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
-		// 		<ImageCard
-		// 			alt={title}
-		// 			src={cover}
-		// 			cardStyles={clsx(isReverse ? 'bg-[#E5F2FD]' : 'bg-[#D9F6F1]')}
-		// 		/>
-		// 	</div>
-
-		// 	<div
-		// 		className={clsx(
-		// 			'basis-[50%]',
-		// 			isReverse ? 'md:text-right' : 'text-left'
-		// 		)}
-		// 	>
-		// 		<h2 className='text-2xl md:text-3xl font-bold text-light'>{title}</h2>
-
-		// 		<p className='mt-4 text-base md:text-lg font-light text-gray'>
-		// 			{description}
-		// 		</p>
-
-		// 		<div
-		// 			className={clsx(
-		// 				'flex flex-wrap gap-2 mt-6',
-		// 				isReverse ? 'md:justify-end' : 'justify-start'
-		// 			)}
-		// 		>
-		// 			{tags.map((tag, key) => (
-		// 				<span
-		// 					key={key}
-		// 					className='font-light uppercase bg-dark-light border border-secondary text-light py-2 px-2 md:px-3 rounded-full text-sm'
-		// 				>
-		// 					{tag}
-		// 				</span>
-		// 			))}
-		// 		</div>
-
-		// 		<div
-		// 			className={clsx(
-		// 				'flex gap-4 mt-10',
-		// 				isReverse ? 'md:justify-end' : 'justify-start'
-		// 			)}
-		// 		>
-		// 			<a
-		// 				href={liveUrl}
-		// 				target='_blank'
-		// 				rel='noreferrer'
-		// 				className='flex gap-1 items-center btn-primary text-base font-normal text-dark hover:text-secondary'
-		// 			>
-		// 				<ExternalLinkIcon className='h-5 w-5' />
-		// 				<span>Live</span>
-		// 			</a>
-
-		// 			<a
-		// 				href={githubUrl}
-		// 				target='_blank'
-		// 				rel='noreferrer'
-		// 				className='flex gap-1 items-center btn-primary text-base font-normal text-dark hover:text-secondary'
-		// 			>
-		// 				<CodeIcon className='h-5 w-5' />
-		// 				<span>GitHub</span>
-		// 			</a>
-		// 		</div>
-		// 	</div>
-		// </div>
 	);
 };

@@ -14,7 +14,7 @@ export const FooterContainer = () => {
 				<Header count='03' title='Sold Yet 🤙' />
 
 				<div className='mt-10 w-full lg:w-[50%]'>
-					<p className='text-xl font-light text-light md:text-xl'>
+					<p className='text-xl font-light text-gray md:text-xl'>
 						You can find me on{' '}
 						<a
 							href='https://twitter.com/nythonore'
@@ -55,7 +55,7 @@ export const FooterContainer = () => {
 
 					<a
 						href='https://github.com/nythonore/nythonore-web'
-						className='group text-light'
+						className='group text-gray'
 						target='_blank'
 						rel='noreferrer'
 					>

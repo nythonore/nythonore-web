@@ -41,7 +41,7 @@ export const NavBarContainer = () => {
 											<span className='font-mono text-secondary'>{`0${
 												key + 1
 											}.`}</span>{' '}
-											<span className='text-light'>{menu.label}</span>
+											<span className='text-gray'>{menu.label}</span>
 										</a>
 									))}
 								</div>
@@ -74,7 +74,7 @@ export const NavBarContainer = () => {
 													<span className='font-mono text-secondary'>{`0${
 														key + 1
 													}.`}</span>{' '}
-													<span className='text-light'>{menu.label}</span>
+													<span className='text-gray'>{menu.label}</span>
 												</a>
 											))}
 										</div>
