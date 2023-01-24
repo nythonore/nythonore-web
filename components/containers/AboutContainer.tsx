@@ -69,11 +69,11 @@ export const AboutContainer = () => {
 					</div>
 
 					<div className='basis-[30%] md:basis-[40%] lg:basis-[30%]'>
-						{/* <ImageCard
+						<ImageCard
 							alt='Honore Niyitegeka'
 							src='/nythonore.jpg'
 							cardStyles='bg-[#D9F6F1]'
-						/> */}
+						/>
 					</div>
 				</div>
 			</div>
