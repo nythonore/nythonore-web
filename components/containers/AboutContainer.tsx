@@ -29,18 +29,17 @@ export const AboutContainer = () => {
 				<div className='mt-12 flex flex-col-reverse justify-center gap-12 md:flex-row'>
 					<div className='basis-[70%] font-light md:basis-[60%] lg:basis-[70%]'>
 						<p className='text-gray'>
-							Hello, my name is Honore. I am a front-end developer located in
+							Hello, my name is Honore. I am a front-end developer based in
 							Canada.
 						</p>
 
 						<p className='mt-4 text-gray'>
-							A highly skilled and experienced frontend developer with a strong
-							background in building modern, responsive, and user-friendly web
-							applications. Proficient in a variety of programming languages and
-							frameworks, including HTML, CSS, JavaScript, React and Python.
-							Proven ability to lead and manage development teams, as well as
-							effectively communicate and collaborate with cross-functional
-							teams.
+							a seasoned frontend developer with years of experience building
+							user-friendly and seamless web applications. possessing a keen
+							sense of design and user experience, as well as being fluent in
+							HTML, CSS, JavaScript, React, and Python. demonstrated leadership
+							abilities in leading development teams and excellent communication
+							abilities for successful cross-functional team collaboration.
 						</p>
 
 						<p className='mt-4 text-gray'>
